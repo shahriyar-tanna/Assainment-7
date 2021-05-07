@@ -1,0 +1,178 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+/*---------------Header Section-----------------*/
+
+header{
+	width: 100%;
+	float: left;
+	background: url(../img/banner.jpg)no-repeat;
+	background-size: cover;
+	background-position: center top;
+	padding-top: 70px;
+}
+.two li{
+	list-style: none;
+	padding: 0px 15px;
+}
+.two a{
+	text-decoration: none;
+	color: white;
+}
+.two a:hover{
+	color: #fafd17;
+}
+.two span{
+	color: #f6f6f6;
+}
+.three h1{
+	color: #f6f6f6;
+	background-color: #28231994;
+	display: inline-block;
+	margin: 135px 0px 35px 0px;
+	padding: 5px 20px;
+	font-size: 60px;
+}
+.three p{
+	color: #f6f6f6;
+	margin-right: 145px;
+}
+.three span{
+	border-bottom: 1px solid #f6f6f6;
+	width: 5%;
+	display: inline-block;
+	margin: 80px 0px 35px 0px;
+}
+.head-btn{
+	background-color: transparent;
+	border: 1px solid #f6f6f6;
+	color: #f6f6f6;
+	padding: 20px 100px;
+	margin-bottom: 285px;
+}
+
+/*------------------Welcome Section--------------*/
+
+.welcome{
+	width: 100%;
+	float: left;
+	padding-top: 200px;
+	background-color: #f6f6f6;
+	padding-bottom: 175px;
+}
+.four h1{
+	font-family: 'Open Sans', sans-serif;
+	color: #333333;
+}
+.four span{
+	border-bottom: 1px solid #000000;
+	display: inline-block;
+	width: 5%;
+	margin: 40px 0px 55px 0px;
+}
+.four p{
+	margin-right: 145px;
+}
+
+/*-------------Another Section--------------*/
+
+.another{
+	width: 100%;
+	float: left;
+	background-color: #28282e;
+	padding: 135px 0px;
+}	
+.six h1{
+	color: #ffffff;
+	font-family: 'Open Sans', sans-serif;
+}
+.six span{
+	border-bottom: 1px solid #ffffff;
+	display: inline-block;
+	width: 5%;
+	margin: 35px 0px 60px 0px;
+}
+.six p{
+	color: #ffffff;
+	margin-right: 50px;
+}
+.an-btn{
+	margin-top: 75px;
+	background: transparent;
+	border: 1px solid #ffffff;
+	color: #ffffff;
+	padding: 15px 25px;
+}
+.seven img{
+	padding-top: 150px; 
+}
+footer{
+	width: 100%;
+	float: left;
+	background-color: #ef4035;
+	text-align: center;
+	color: #ffffff;
+	padding: 40px 0px;
+}
+/*----------------Media Query---------------*/
+
+@media (min-width: 320px) and (max-width: 576px){
+
+/*-----------------Header-------------------*/
+
+	.one img{
+		margin: 0 auto;
+		display: block;
+	}
+	.two button{
+		margin: 0 auto;
+	}
+	nav{
+		text-align: center;
+	}
+	.three{
+		text-align: center;
+	}	
+	.three h1{
+		margin: 35px 0px 35px 0px;
+		padding: 5px 20px;
+		font-size: 40px;
+	}
+	.three p{
+		margin: 0px 35px;
+	}
+	.head-btn{
+		margin-bottom: 70px;
+	}
+
+/*-----------------Welcome Section---------------*/
+
+	.welcome{
+		text-align: center;
+		padding: 70px 0px;
+	}
+	.four p{
+		margin-right: 0px;
+	}
+	.five img{
+		marign-right: 900px;
+	}
+/*--------------Another Section------------------*/
+	.another{
+		text-align: center;
+		padding: 70px 0px; 
+	}
+	.six p{
+		margin-right: 0px;
+	}
+	.seven img{
+		padding-top: 70px;
+	}
+/*-------------------Footer----------------------*/
+	footer{
+		padding: 20px 0px;
+	}
+
+}

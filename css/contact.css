@@ -1,0 +1,124 @@
+*{
+	margin: 0px;
+	padding: 0px;
+}
+
+/*---------------Header--------------*/
+
+header{
+	width: 100%;
+	float: left;
+	padding-top: 70px;
+}
+.two a{
+	color: #005e7e;
+}
+.two li{
+	padding: 0px 15px;
+}
+span{
+	border-bottom: 5px solid #e4e4e4;
+	display: inline-block;
+	width: 100%;
+	margin-top: 30px;
+}
+
+/*--------------Contact section------------*/
+
+.contact{
+	width: 100%;
+	float: left;
+	background-color: #ee4a3f;
+	padding: 60px 0px;
+}
+.three h1{
+	color: white;
+	font-size: 55px;
+	margin-bottom: 45px;
+}
+.three p{
+	color: white;
+	margin-top: 30px;
+	text-align: justify;
+}
+.four{
+	margin-top: 45px;
+}
+.five{
+	padding-top: 35px;
+}
+.five label{
+	color: white;
+	font-size: 13px;
+}
+.five input{
+	background-color: #ff6258;
+	border: none;
+}
+.six{
+	padding-top: 35px;
+}
+.six label{
+	color: white;
+	font-size: 13px;
+}
+.six input{
+	background-color: #ff6258;
+	border: none;
+}
+.btn{
+	margin-top: 85px;
+	color: white;
+	font-size: 30px;
+	font-family: Script MT; 
+}
+
+/*------------------Footer---------------*/
+
+footer{
+	width: 100%;
+	float: left;
+	background-color: #ee4a3f;
+	text-align: center;
+	color: white;
+	padding: 50px 0px;
+}
+
+/*--------------Media Query-------------*/
+
+/*----------------Header----------------*/
+
+@media (min-width: 320px) and (max-width: 576px){
+	
+	header{
+		text-align: center;
+	}
+	button{
+		display: inline-block;
+		margin: 0 auto;
+	}
+
+/*--------------Contact----------------*/
+
+	.contact{
+		padding-bottom: 30px;
+	}
+	.three h1{
+		text-align: center;
+	}
+	.four{
+		text-align: center;
+	}
+	.six{
+		margin-top: -30px;
+	}
+	.seven{
+		text-align: center;
+	}
+	.btn{
+		margin-top: 55px;	
+	}
+	footer{
+		padding: 0px 0px 30px 0px;
+	}
+}
